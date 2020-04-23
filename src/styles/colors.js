@@ -1,0 +1,16 @@
+export default {
+    black: '#000000',
+    white: '#ffffff',
+    appLightColor: "#494ca2",
+    appDarkColor: "#293462",
+    errorLightColor: '#D21F3C',
+    errorDarkColor: '#960018',
+    lightPurple: '#be0087', 
+    darkPurple: '#ad2184', 
+    DARKPURPLE: '#481f5d', 
+    LIGHTPURPLE: '#381b48', 
+    darkGray: '#a6a6a6', 
+    lightGray: '#e1e1e1', 
+    grey7: '#2C2C2E', 
+    grey8: '#363638',
+}
