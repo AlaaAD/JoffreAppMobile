@@ -1,25 +1,16 @@
 import React from 'react'
-import 'react-native-gesture-handler';
-import {View,Text,StyleSheet} from 'react-native'
-import colors from './styles/colors';
-import { color } from 'react-native-reanimated';
+import {NavigationContainer} from '@react-navigation/native'
+import Navigation from './navigation/Navigation';
 
 
 export default class App extends React.Component{
   render(){
     return(
-      <View style={styles.container}>
-        <Text>Page App !</Text>
-      </View>
+      <NavigationContainer>
+        <Navigation/>
+      </NavigationContainer>
+     
     )
   }
 }
 
-const styles = StyleSheet.create({
-  container : {
-    flex : 1,
-    alignItems: 'center',
-    justifyContent : 'center',
-    backgroundColor : colors.darkGray
-  }
-})
